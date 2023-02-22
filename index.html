@@ -10,10 +10,20 @@
     <meta name="keywords" content="Cine, Noticias, Actualidad, Reseñas, Estrenos, Películas">
     <link rel ="icon" href ="icons/palomitas-de-maiz.png" type="image/png" sizes="16x16">
     <title>Todo Cinema</title> 
+
+    <style>
+        #header {
+            text-align: center;
+        }
+
+        .multimedia{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     
-    <div id="header" align="center">
+    <div id="header">
         <picture>
             <source media="(max-width: 576px)" srcset="./images/pequeña.jpg">
             <source media="(min-width: 900px)" srcset="./images/grande.gif">
@@ -22,7 +32,7 @@
     </div>
 
     
-    <h2>Estrenos recientes</h2>
+    <h2>Películas recomendadas</h2>
     
     <h3>Reseña de M3GAN, una película de terror muy particular</h3>
     
@@ -57,6 +67,25 @@
     <source media="(min-width: 800px)" srcset="./images/M3GAN-848.jpg">
     <img src="./images/M3GAN-480.jpg" alt="M3GAN (2022)">
 </picture>
+
+<a href="./articles/noticia2.html"><h3>Soul: una reflexión sobre la vida y la felicidad</h3></a>
+<a href="articles/noticia2.html#final"></a>
+<a id="inicio_soul"></a>
+
+
+
+<p><q>Soul</q> es una película de animación estrenada en el año 2020 de la mano de Pixar y Disney. La trama gira en torno al profesor de música Joe, quien pese a no contar con 
+    el apoyo de su familia, siempre ha soñado con triunfar en el mundo de la música... <a href="./articles/noticia2.html">Leer más.</a></p>
+
+<a href="./articles/noticia2.html">
+    <div class="multimedia">
+        <picture>
+            <source media="(max-width: 576px)" srcset="/proyecto-cine/images/soul3.jpg">
+            <source media="(min-width: 900px)" srcset="/proyecto-cine/images/soul1.jpg">
+            <img src="/proyecto-cine/images/soul2.jpg" alt="Soul (2020)">
+        </picture>
+    </div>
+</a>
 
 </body>
 </html>
