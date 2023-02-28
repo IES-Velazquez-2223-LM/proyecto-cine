@@ -56,6 +56,10 @@ footer{
    color:black;
 }
 
+.articulo_megan a:hover{
+    color:white;
+}
+
 .articuloM_padre{
     background: rgba(119, 116, 116, 0.5);
     border-radius: 3%;
@@ -94,6 +98,13 @@ footer{
     width:370px;
 }
 
+.articulo_soul a{
+    color:black;
+}
+
+.articulo_soul a:hover{
+    color:white;
+}
 
 .animacion_padre{
     background: rgba(119, 116, 116, 0.5);
@@ -119,4 +130,48 @@ footer{
 .animacion img{
     height:600px;
     width: 450px;
+}
+
+.animacion a{
+    color:black;
+}
+
+.animacion a:hover{
+    color:white;
+}
+
+.terror_padre{
+    background: rgba(119, 116, 116, 0.5);
+    border-radius: 3%;
+    height: 500x;
+    width: 800px;
+    margin:5px;
+    padding:20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.terror{
+    background-color: rgba(133, 43, 43);
+    text-align: center;
+    border-radius: 3%;
+    height: 700x;
+    width: 700px;
+    margin:10px;
+    padding:5px;
+    margin: 0 auto;
+    
+}
+
+.terror img{
+    height:600px;
+    width: 450px;
+}
+
+.terror a{
+    color: black;
+}
+
+.terror a:hover{
+    color: rgb(255, 255, 255);
 }
