@@ -282,3 +282,23 @@ footer{
     color:black;
     text-align: center;
 }
+
+.boton_inicio{
+    text-align: center;
+    color: white;
+
+}
+
+.boton_inicio img{
+    height:150px;
+    width: 140px;
+}
+
+.caja{
+    background: rgb(62, 98, 139); 
+    color: #e7dfdf; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #ffffff; 
+    border-radius: 6px;
+}
