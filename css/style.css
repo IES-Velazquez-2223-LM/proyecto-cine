@@ -175,3 +175,42 @@ footer{
 .terror a:hover{
     color: rgb(255, 255, 255);
 }
+
+.articulos_animacion{
+    background: rgba(119, 116, 116, 0.5);
+    border-radius: 3%;
+    height: 500x;
+    width: 800px;
+    margin:5px;
+    padding:20px;
+    margin: 0 auto;
+}
+
+.articulo_animacion{
+    background-color: rgb(62, 98, 139);
+    border-radius: 3%;
+    text-align: center;
+    margin:15px;
+    padding:10px;
+    
+
+}
+
+.articulo_animacion img{
+    height:600px;
+    width: 450px;
+}
+
+.articulo_animacion iframe{
+    height:450px;
+    width: 600px;
+}
+
+.articulo_animacion a{
+    color:black;
+}
+
+.articulo_animacion header{
+    color:black;
+    text-align: center;
+}
