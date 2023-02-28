@@ -108,6 +108,7 @@ footer{
     margin:5px;
     padding:20px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .articulo_soul{
@@ -221,7 +222,6 @@ footer{
     text-align: center;
     margin:15px;
     padding:10px;
-    
 
 }
 
@@ -243,6 +243,8 @@ footer{
     color:black;
     text-align: center;
 }
+
+.articulo_animacion 
 
 .articulo_terror{
     background: rgba(133, 43, 43);
