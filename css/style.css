@@ -45,6 +45,7 @@ footer{
     height: 700px;
     width: 700px;
     margin: 0 auto;
+    
 }
 
 .articulo_megan img{
@@ -252,8 +253,10 @@ footer{
     text-align: center;
 }
 
+
 .articulo_terror{
     background: rgba(133, 43, 43);
+    text-align: center;
     border-radius: 3%;
     height: 500x;
     width: 800px;
@@ -268,6 +271,7 @@ footer{
     text-align: center;
     margin:15px;
     padding:10px;
+    color: black;
 }
 
 .articulo_terror img{
@@ -298,15 +302,6 @@ footer{
 .boton_inicio img{
     height:150px;
     width: 140px;
-}
-
-.caja{
-    background: rgb(62, 98, 139); 
-    color: #e7dfdf; 
-    font-weight: bold; 
-    padding: 15px; 
-    border: 2px solid #ffffff; 
-    border-radius: 6px;
 }
 
 .drama_padre{
@@ -429,6 +424,7 @@ footer{
     margin: 5px;
     padding: 20px;
     margin: 0 auto;
+    margin-bottom: 20px;
  
 }
 
@@ -441,7 +437,6 @@ footer{
     height: 700px;
     width: 700px;
     margin: 0 auto;
-    color: white;
 }
 
 .accion img{
@@ -461,16 +456,14 @@ footer{
     background-color: rgb(9, 92, 27);
     text-align: center;
     border-radius: 3%;
-    margin: 10px;
-    padding: 5px;
-    height: 700px;
-    width: 700px;
-    margin: o auto;
-    color: black;
+    margin: 15px;
+    padding: 10px;
+    margin: 0 auto;
+    
 }
 
 .articulo_F9 img{
-    height: 500px;
+    height: 380px;
     width: 350;
 } 
 
