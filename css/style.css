@@ -351,7 +351,7 @@ footer{
 }
 
 .articulo_drama{
-    background-color: rgb(235, 180, 99);
+    background-color: rgb(79, 124, 248);
     border-radius: 3%;
     text-align: center;
     margin:15px;
@@ -375,7 +375,7 @@ footer{
 }
 
 .articulo_drama header{
-    color:black;
+    color:rgb(255, 255, 255);
     text-align: center;
 }
 
