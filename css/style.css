@@ -97,7 +97,7 @@ footer{
     margin:5px;
     padding:20px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .articuloS_padre{
@@ -108,11 +108,11 @@ footer{
     margin:5px;
     padding:20px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .articulo_soul{
-    background-color: rgb(62, 98, 139);
+    background-color: rgb(235, 180, 99);
     text-align: center;
     border-radius: 3%;
     margin:10px;
@@ -120,6 +120,7 @@ footer{
     height: 700px;
     width: 700px;
     margin: 0 auto;
+    color: black;
     
 }
 
@@ -129,7 +130,7 @@ footer{
 }
 
 .articulo_soul a{
-    color:black;
+    color:rgb(0, 0, 0);
 }
 
 .articulo_soul a:hover{
@@ -147,7 +148,7 @@ footer{
 }
 
 .animacion{
-    background-color: rgb(62, 98, 139);
+    background-color: rgb(235, 180, 99);
     text-align: center;
     border-radius: 3%;
     margin:10px;
@@ -155,6 +156,7 @@ footer{
     height: 700px;
     width: 700px;
     margin: 0 auto;
+    color: black;
 }
 
 .animacion img{
@@ -217,11 +219,12 @@ footer{
 }
 
 .articulo_animacion{
-    background-color: rgb(62, 98, 139);
+    background-color: rgb(235, 180, 99);
     border-radius: 3%;
     text-align: center;
     margin:15px;
     padding:10px;
+    color: black;
 
 }
 
@@ -243,8 +246,6 @@ footer{
     color:black;
     text-align: center;
 }
-
-.articulo_animacion 
 
 .articulo_terror{
     background: rgba(133, 43, 43);
@@ -301,4 +302,116 @@ footer{
     padding: 15px; 
     border: 2px solid #ffffff; 
     border-radius: 6px;
+}
+
+.drama_padre{
+    background: rgba(119, 116, 116, 0.5);
+    border-radius: 3%;
+    height: 500x;
+    width: 800px;
+    margin:5px;
+    padding:20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.drama{
+    background-color: rgb(79, 124, 248);
+    text-align: center;
+    border-radius: 3%;
+    margin:10px;
+    padding:5px;
+    height: 700px;
+    width: 700px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+.drama img{
+    height:600px;
+    width: 450px;
+}
+
+.drama a{
+    color:black;
+}
+
+.drama a:hover{
+    color:white;
+}
+
+.articulos_drama{
+    background: rgba(119, 116, 116, 0.5);
+    border-radius: 3%;
+    height: 500x;
+    width: 800px;
+    margin:5px;
+    padding:20px;
+    margin: 0 auto;
+}
+
+.articulo_drama{
+    background-color: rgb(235, 180, 99);
+    border-radius: 3%;
+    text-align: center;
+    margin:15px;
+    padding:10px;
+    color: black;
+
+}
+
+.articulo_drama img{
+    height:600px;
+    width: 450px;
+}
+
+.articulo_drama iframe{
+    height:450px;
+    width: 600px;
+}
+
+.articulo_drama a{
+    color:black;
+}
+
+.articulo_drama header{
+    color:black;
+    text-align: center;
+}
+
+.inicioDrama_padre{
+    background: rgba(119, 116, 116, 0.5);
+    border-radius: 3%;
+    height: 500x;
+    width: 800px;
+    margin:5px;
+    padding:20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.inicioDrama{
+    background-color: rgb(79, 124, 248);
+    text-align: center;
+    border-radius: 3%;
+    margin:10px;
+    padding:5px;
+    height: 700px;
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    
+}
+
+.inicioDrama img{
+    height:550px;
+    width:370px;
+}
+
+.inicioDrama a{
+    color:rgb(0, 0, 0);
+}
+
+.inicioDrama a:hover{
+    color:white;
 }
