@@ -36,6 +36,7 @@ footer{
     color: black;
 }
 
+<<<<<<< HEAD
 .articulo_megan{
     background-color:rgb(133, 43, 43);
     text-align: center;
@@ -184,6 +185,8 @@ footer{
 .terror a:hover{
     color: rgb(255, 255, 255);
 }
+=======
+>>>>>>> cae307105f82eb04e7f8644bc3dcf9e82133e887
 
 .articulos_animacion{
     background: rgba(119, 116, 116, 0.5);
@@ -193,6 +196,7 @@ footer{
     margin:5px;
     padding:20px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .articulo_animacion{
@@ -220,29 +224,39 @@ footer{
 }
 
 .articulo_animacion header{
-    color:black;
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 
+.articulo_animacion a:hover{
+    color:rgb(255, 255, 255);
+}
 
-.articulo_terror{
-    background: rgba(133, 43, 43);
-    text-align: center;
+.articulos_terror{
+    background: rgba(119, 116, 116, 0.5);
     border-radius: 3%;
     height: 500x;
     width: 800px;
     margin:5px;
     padding:20px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .articulo_terror{
     background-color: rgba(133, 43, 43);
-    border-radius: 3%;
     text-align: center;
-    margin:15px;
-    padding:10px;
-    color: black;
+    border-radius: 3%;
+    height: 700x;
+    width: 700px;
+    margin:10px;
+    padding:5px;
+    margin: 0 auto;
+    
+}
+.articulo_terror iframe{
+    height: 450px;
+    width: 600px;
 }
 
 .articulo_terror img{
@@ -259,56 +273,13 @@ footer{
     color:black;
 }
 
+.articulo_terror a:hover{
+    color:white;
+}
+
 .articulo_terror header{
     color:black;
     text-align: center;
-}
-
-.boton_inicio{
-    text-align: center;
-    color: white;
-
-}
-
-.boton_inicio img{
-    height:150px;
-    width: 140px;
-}
-
-.drama_padre{
-    background: rgba(119, 116, 116, 0.5);
-    border-radius: 3%;
-    height: 500x;
-    width: 800px;
-    margin:5px;
-    padding:20px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.drama{
-    background-color: rgb(79, 124, 248);
-    text-align: center;
-    border-radius: 3%;
-    margin:10px;
-    padding:5px;
-    height: 700px;
-    width: 700px;
-    margin: 0 auto;
-    color: rgb(255, 255, 255);
-}
-
-.drama img{
-    height:600px;
-    width: 450px;
-}
-
-.drama a{
-    color:black;
-}
-
-.drama a:hover{
-    color:white;
 }
 
 .articulos_drama{
@@ -319,6 +290,7 @@ footer{
     margin:5px;
     padding:20px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .articulo_drama{
@@ -350,7 +322,11 @@ footer{
     text-align: center;
 }
 
-.inicioDrama_padre{
+.articulo_drama a:hover{
+    color:white;
+}
+
+.articulos_accion{
     background: rgba(119, 116, 116, 0.5);
     border-radius: 3%;
     height: 500x;
@@ -361,9 +337,11 @@ footer{
     margin-bottom: 20px;
 }
 
-.inicioDrama{
-    background-color: rgb(79, 124, 248);
+.articulo_accion{
+    background-color: rgb(79, 182, 88);
+    border-radius: 3%;
     text-align: center;
+<<<<<<< HEAD
     border-radius: 3%;
     margin:10px;
     padding:5px;
@@ -416,13 +394,20 @@ footer{
 }
 
 .accion a{
+=======
+    margin:15px;
+    padding:10px;
+>>>>>>> cae307105f82eb04e7f8644bc3dcf9e82133e887
     color: black;
+
 }
 
-.accion a:hover{
-    color: white;
+.articulo_accion img{
+    height:600px;
+    width: 430px;
 }
 
+<<<<<<< HEAD
 
 .articulo_F9{
     background-color: rgb(9, 92, 27);
@@ -443,13 +428,33 @@ footer{
 
 .articulo_F9 iframe{
     height: 450px;
+=======
+.articulo_accion iframe{
+    height:450px;
+>>>>>>> cae307105f82eb04e7f8644bc3dcf9e82133e887
     width: 600px;
 }
 
-.articulo_F9 a{
+.articulo_accion a{
     color:black;
 }
 
-.articulo_F9 a:hover{
+.articulo_accion header{
+    color:black;
+    text-align: center;
+}
+
+.articulo_accion a:hover{
+    color:rgb(255, 255, 255);
+}
+
+.boton_inicio{
+    text-align: center;
     color: white;
+
+}
+
+.boton_inicio img{
+    height:150px;
+    width: 140px;
 }
