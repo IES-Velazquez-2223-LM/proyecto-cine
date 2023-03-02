@@ -229,3 +229,17 @@ footer{
     height:150px;
     width: 140px;
 }
+
+
+    table{
+      width: 30%;
+      border-collapse: collapse;
+      background-color: (79, 182, 88);
+      text-align: center;
+    }
+
+    td{
+      width: 30%;
+      border: 1px solid black;
+      text-align: center;
+    }
