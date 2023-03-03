@@ -10,6 +10,8 @@ footer{
     text-align: center;
     background-color: rgb(0, 0, 0);
     color:aliceblue;
+    border-style:solid;
+
 }
 
 #nav ul{
@@ -40,8 +42,8 @@ footer{
 .articulos_animacion{
     background: rgba(119, 116, 116, 0.5);
     border-radius: 3%;
-    height: 500x;
-    width: 800px;
+    height: 600x;
+    width: 750px;
     margin:5px;
     padding:20px;
     margin: 0 auto;
@@ -55,6 +57,7 @@ footer{
     margin:15px;
     padding:10px;
     color: black;
+    border-style: solid;
 
 }
 
@@ -84,8 +87,8 @@ footer{
 .articulos_terror{
     background: rgba(119, 116, 116, 0.5);
     border-radius: 3%;
-    height: 500x;
-    width: 800px;
+    height: 600x;
+    width: 750px;
     margin:5px;
     padding:20px;
     margin: 0 auto;
@@ -93,7 +96,7 @@ footer{
 }
 
 .articulo_terror{
-    background-color: rgba(133, 43, 43);
+    background-color: rgb(99, 31, 31);
     text-align: center;
     border-radius: 3%;
     height: 700x;
@@ -101,6 +104,8 @@ footer{
     margin:10px;
     padding:5px;
     margin: 0 auto;
+    border-style: solid;
+    border-color: black;
     
 }
 .articulo_terror iframe{
@@ -134,8 +139,8 @@ footer{
 .articulos_drama{
     background: rgba(119, 116, 116, 0.5);
     border-radius: 3%;
-    height: 500x;
-    width: 800px;
+    height: 600x;
+    width: 750px;
     margin:5px;
     padding:20px;
     margin: 0 auto;
@@ -149,6 +154,8 @@ footer{
     margin:15px;
     padding:10px;
     color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
 
 }
 
@@ -178,8 +185,8 @@ footer{
 .articulos_accion{
     background: rgba(119, 116, 116, 0.5);
     border-radius: 3%;
-    height: 500x;
-    width: 800px;
+    height: 600x;
+    width: 750px;
     margin:5px;
     padding:20px;
     margin: 0 auto;
@@ -193,6 +200,8 @@ footer{
     margin:15px;
     padding:10px;
     color: black;
+    border-style: solid;
+    border-color: black;
 
 }
 
@@ -226,16 +235,19 @@ footer{
 }
 
 .boton_inicio img{
-    height:150px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
+    
 }
 
 
-    table{
+.tabla{
       width: 30%;
       border-collapse: collapse;
       background-color: (79, 182, 88);
       text-align: center;
+      margin: 0 auto;
+      
     }
 
     td{
