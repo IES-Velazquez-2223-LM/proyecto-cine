@@ -9,9 +9,27 @@ body{
 footer{
     text-align: center;
     background-color: rgb(0, 0, 0);
-    color:aliceblue;
+    border:rgb(88, 20, 20);
     border-style:solid;
 
+}
+
+footer img{
+    height:400px;
+    width: 1200px;
+    
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border:rgb(88, 20, 20);
+    border-style: solid;
+}
+
+.header img{
+    height:300px;
+    width: 900px;
 }
 
 #nav ul{
