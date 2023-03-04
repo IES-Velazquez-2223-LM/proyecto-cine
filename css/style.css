@@ -15,8 +15,8 @@ footer{
 }
 
 footer img{
-    height:400px;
-    width: 1200px;
+    height:300px;
+    width: 900px;
     
 }
 
@@ -338,4 +338,13 @@ footer img{
         border-style: solid;
         border-color: black;
     
+    }
+
+    .formulario header{
+        text-align:center;
+    
+    }
+
+    .boton_formulario{
+        text-align: center;
     }

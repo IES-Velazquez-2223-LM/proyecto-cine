@@ -14,16 +14,17 @@
 </head>
 <body>
     <header>
-        <h1 style="text-align: center;"><i><b>Todo Cinema</b></i></h1>
-        <hr style="border-color:darkcyan;"><br>
-        
-        <div style="text-align: center;">
-            <picture>
-                <source media="(max-width: 576px)" srcset="/proyecto-cine/images/pequeña.jpg">
-                <source media="(min-width: 900px)" srcset="/proyecto-cine/images/grande.gif">
-                <img src="/proyecto-cine/images/grande.gif" alt="header">
-            </picture>
-        </div>
+        <div class="header">
+            <header>
+                <div>
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="../images/pequeña.jpg">
+                        <source media="(min-width: 900px)" srcset="../images/header1.gif">
+                        <img src="../images/header1.gif" alt="header">
+                    </picture>
+                </div>
+            </header>
+            </div>
     </header>
     <nav>
         <div id="nav">
@@ -44,18 +45,29 @@
 
         <div class="fondo_formulario">
             <div class="formulario">
+                
+                <header>
+                    <div class="encabezado_secciones">
+                        <h3>Formulario</h3>
+                    </div>
+                    <div class="linea"></div>
+                </header>
+
                 <form name="Formulario" action="#" method="post" target="_blank" enctype="text/plain"> <!--añadir correo electrónico-->
+                    <fieldset style="border-color:black;">
+                        <legend>Datos personales</legend>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre"><br/>
 
-                    <p><u>Datos personales</u></p>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre"><br/>
+                        <label for="apellido">Apellido(s):</label>
+                        <input type="text" name="apellido" id="apellido"><br/>
 
-                    <label for="apellido">Apellido(s):</label>
-                    <input type="text" name="apellido" id="apellido"><br/>
+                        <label for="edad">Edad:</label>
+                        <input type="number" name="edad" id="edad"><br/>
+                    </fieldset><br/>
 
-                    <label for="edad">Edad:</label>
-                    <input type="number" name="edad" id="edad"><br/>
-
+                    <fieldset style="border-color:black;">
+                    <legend>Sobre esta página</legend>
                     <p><u>¿Qué sección incluiría en esta página?</u></p>
                     <input type="checkbox" name="comedia" id="comedia" value="comedia">
                     <label for="comedia">Comedia</label><br/>
@@ -69,7 +81,39 @@
                     <label for="otra">Otra</label><br/>
                     <label for="opcion">Indique otra opción:</label>
                     <input type="text" name="opcion" id="opcion"><br/>
-                    
+
+                    <p><u>¿Cómo de interesantes le resultan las noticias de esta web?</u></p>
+                    <input type="range" name="range" id="range" min="0" max="5" step="1">
+                    <label for="range">Seleccione del 1 al 5:</label><br/>
+
+                    <p><u>De las noticias publicadas, ¿cuáles han sido sus favoritas?</u></p>
+                    <input type="checkbox" name="megan" id="megan" value="megan">
+                    <label for="megan">Megan (2022)</label><br/>
+                    <input type="checkbox" name="anabelle" id="anabelle" value="anabelle">
+                    <label for="anabelle">Anabelle (2019)</label><br/>
+                    <input type="checkbox" name="monstruo" id="monstruo" value="monstruo">
+                    <label for="monstruo">Un monstruo viene a verme (2016)</label><br/>
+                    <input type="checkbox" name="pijama" id="pijama" value="pijama">
+                    <label for="pijama">El niño con el pijama de rayas (2008)</label><br/>
+                    <input type="checkbox" name="soul" id="soul" value="soul">
+                    <label for="soul">Soul (2020)</label><br/>
+                    <input type="checkbox" name="luciernagas" id="luciernagas" value="luciernagas">
+                    <label for="luciernagas">La tumba de las luciérnagas (1988)</label><br/>
+                    <input type="checkbox" name="fast" id="fast" value="fast">
+                    <label for="fast">Fast & furious 9 (2015)</label><br/>
+                    <input type="checkbox" name="superviviente" id="superviviente" value="superviviente">
+                    <label for="superviviente">El superviviente (2021)</label><br/>
+
+                    <p><u>¿Desea añadir algo más?</u></p>
+                    <textarea name="mensaje" id="mensaje" rows="8" cols="50" placeholder="¡Déjanos cualquier comentario o sugerencia!"></textarea><br/>
+
+                    <br/>
+                    </fieldset><br/>
+
+                    <div class="boton_formulario">
+                        <button type="submit" value="enviar" name="enviar" id="enviar">Pulse para enviar</button>
+                        <button type="reset" value="reset" name="reset" id="reset">Pulse para borrar los datos</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -86,10 +130,13 @@
 
     <footer>
     
-        <p>Alumno 1: Guadalupe Villegas Flores</p>
-        <p>Alumno 2: Paloma Ferrández Fernández</p>
-        <p>Asignatura: Lenguajes de marcas</p> 
-        <p>Curso: 2022-2023</p>
+        <div>
+            <picture>
+                <source media="(max-width: 576px)" srcset="../images/footer2.png">
+                <source media="(min-width: 900px)" srcset="../images/footer1.png">
+                <img src="../images/footer1.png" alt="header">
+            </picture>
+        </div>
         
     </footer>
 </body>
