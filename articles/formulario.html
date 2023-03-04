@@ -53,7 +53,7 @@
                     <div class="linea"></div>
                 </header>
 
-                <form name="Formulario" action="#" method="post" target="_blank" enctype="text/plain"> <!--añadir correo electrónico-->
+                <form name="Formulario" action="mailto:pferfer@g.educaand.es" method="post" target="_blank" enctype="text/plain">
                     <fieldset style="border-color:black;">
                         <legend>Datos personales</legend>
                         <label for="nombre">Nombre:</label>
@@ -89,6 +89,25 @@
                         <label for="range">Seleccione del 1 al 10:</label>
                         <input type="range" name="range" id="range" min="0" max="10" step="1">
                         
+                        <p><u>Si tuviera que elegir una categoría, ¿cuál sería su favorita?</u></p>
+                        <label for="opciones">Seleccione entre las siguientes opciones:</label>
+                        <select name="opciones" id="opciones">
+                            <option value="cat">Categoría</option>
+                            <option value="com">Comedia</option>
+                            <option value="dra">Drama</option>
+                            <option value="ac">Acción</option>
+                            <option value="ci">Ciencia ficción</option>
+                            <option value="fan">Fantasía</option>
+                            <option value="mu">Musical</option>
+                            <option value="ter">Terror</option>
+                            <option value="sus">Suspense</option>
+                            <option value="rom">Romance</option>
+                            <option value="an">Animación</option>
+                            <option value="ot">Otra</option>
+                        </select><br><br>
+
+                        <label for="opcion">Si ha elegido otra, indíquela:</label>
+                        <input type="text" name="opcion" id="opcion"><br/>
 
                     </fieldset><br/>
 
