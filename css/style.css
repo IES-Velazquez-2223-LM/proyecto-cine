@@ -255,3 +255,16 @@ footer{
       border: 1px solid black;
       text-align: center;
     }
+
+    .encabezado_secciones{
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .linea{
+        border-top: 3px dotted;
+        height: 2px;
+        padding: 0;
+        margin: 20px auto 0 auto;
+        margin-bottom: 30px;
+    }
