@@ -291,3 +291,33 @@ footer{
         margin: 20px auto 0 auto;
         margin-bottom: 30px;
     }
+
+    .fondo_formulario{
+        background: rgba(119, 116, 116, 0.5);
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        height: 600x;
+        width: 750px;
+        margin:5px;
+        padding:20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .formulario{
+        background-color: rgb(236, 157, 226);
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        text-align: left;
+        font-weight: bold;
+        margin:15px;
+        padding:10px;
+        color: rgb(0, 0, 0);
+        border-style: solid;
+        border-color: black;
+    
+    }
