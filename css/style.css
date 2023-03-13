@@ -118,13 +118,17 @@ body{
     margin:15px;
     padding:10px;
     color: black;
-    border-style: solid;
-
+    border-style: dashed;
 }
 
 .articulo_animacion img{
     height:600px;
     width: 450px;
+    opacity: 0.7;
+}
+
+.articulo_animacion img:hover{
+    opacity: 1.0;
 }
 
 .articulo_animacion iframe{
@@ -168,7 +172,7 @@ body{
     border-bottom-right-radius: 30px;
     margin:15px;
     padding:10px;
-    border-style: solid;
+    border-style: dashed;
     border-color: black;
     
 }
@@ -180,6 +184,11 @@ body{
 .articulo_terror img{
     height:600px;
     width: 450px;
+    opacity: 0.7;
+}
+
+.articulo_terror img:hover{
+    opacity: 1.0;
 }
 
 .articulo_terror video{
@@ -224,7 +233,7 @@ body{
     margin:15px;
     padding:10px;
     color: rgb(255, 255, 255);
-    border-style: solid;
+    border-style: dashed;
     border-color: black;
 
 }
@@ -232,6 +241,11 @@ body{
 .articulo_drama img{
     height:600px;
     width: 450px;
+    opacity: 0.7
+}
+
+.articulo_drama img:hover{
+    opacity: 1.0;
 }
 
 .articulo_drama iframe{
@@ -276,7 +290,7 @@ body{
     margin:15px;
     padding:10px;
     color: black;
-    border-style: solid;
+    border-style: dashed;
     border-color: black;
 
 }
@@ -284,6 +298,11 @@ body{
 .articulo_accion img{
     height:600px;
     width: 430px;
+    opacity: 0.7;
+}
+
+.articulo_accion img:hover{
+    opacity: 1.0;
 }
 
 .articulo_accion iframe{
@@ -382,4 +401,12 @@ body{
 
     .boton_formulario{
         text-align: center;
+    }
+
+    .fuente1{
+        font-family: 'Lobster', cursive;
+    }
+
+    .fuente2{
+        font-family: 'Satisfy', cursive;
     }
